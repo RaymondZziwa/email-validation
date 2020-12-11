@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login</title>
+<script src="log in .js"></script>
+<style type="text/css">
+.log {
+   	
+    margin: auto;
+    height: 300px;
+    width: 500px;
+}
+input[type=email],input[type=password]{
+		padding: 5px;
+		margin: 10px;
+		width:300px;
+		border-radius: 10px;
+}
+input[type=submit]{
+		border-radius: 5px;
+		margin: 5px;
+	}
+</style>
+</head>
+
+<body>
+<div class="log">
+  <label for="email"><b style="padding: 5px">Email:</b></label>
+  <input id="input1" type="email" placeholder="Enter email" name="email" required><br>
+	<label for="password"><b style="padding: 5px">Password:</b></label>
+  <input id="input2" type="password" placeholder="Enter your password" name="password" required><br>
+  <input type="checkbox">Keep me signed in<br>
+	<input id="button1" type="submit" onclick="submit()">
+</div>
+</body>
+</html>
